@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T22:01:24.760Z" agent="5.0 (Windows)" etag="2loZmNr1AcqCJCXB-u2s" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T22:01:42.559Z" agent="5.0 (Windows)" etag="w3jQmdceDrMYfLyEoNLO" version="14.7.0" type="github">
   <diagram id="_4k45IfOBsskdnUbPDaa" name="Page-1">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
           <mxGeometry x="150" y="480" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VEzm1wGkJV7xHXXM20gM-5" value="Ventana de Información" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="710" width="130" height="50" as="geometry" />
+          <mxGeometry x="150" y="710" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VEzm1wGkJV7xHXXM20gM-6" value="Avion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="360" y="62" width="160" height="86" as="geometry" />
