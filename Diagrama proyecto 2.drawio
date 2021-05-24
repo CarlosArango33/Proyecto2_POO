@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T21:03:56.501Z" agent="5.0 (Windows)" etag="42wOJbKd74ZMvoAIJg6n" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T21:05:18.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="wO_OvXjkYjRaL-9e1ckb" version="14.6.6" type="github">
   <diagram id="_4k45IfOBsskdnUbPDaa" name="Page-1">
-    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VEzm1wGkJV7xHXXM20gM-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+        <mxCell id="VEzm1wGkJV7xHXXM20gM-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="260" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VEzm1wGkJV7xHXXM20gM-2" value="Object" style="html=1;" vertex="1" parent="1">
+        <mxCell id="VEzm1wGkJV7xHXXM20gM-2" value="Vuelos" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="80" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VEzm1wGkJV7xHXXM20gM-3" value="Object" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="250" width="110" height="50" as="geometry" />
+        <mxCell id="VEzm1wGkJV7xHXXM20gM-3" value="Ventana Controlador" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="250" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VEzm1wGkJV7xHXXM20gM-4" value="Object" style="html=1;" vertex="1" parent="1">
+        <mxCell id="VEzm1wGkJV7xHXXM20gM-4" value="Controlador" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="380" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VEzm1wGkJV7xHXXM20gM-5" value="Object" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="490" width="110" height="50" as="geometry" />
+        <mxCell id="VEzm1wGkJV7xHXXM20gM-5" value="Ventana de Información" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="490" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
