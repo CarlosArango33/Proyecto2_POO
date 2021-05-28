@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-28T02:00:21.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="KkqdUGlKWmD9KyNmlf-i" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-28T02:06:41.624Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="A5LHbTTqoDIbUl8HigPn" version="14.7.2" type="github">
   <diagram id="_4k45IfOBsskdnUbPDaa" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,7 +99,7 @@
         <mxCell id="VEzm1wGkJV7xHXXM20gM-29" value="0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="VEzm1wGkJV7xHXXM20gM-28" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="VEzm1wGkJV7xHXXM20gM-34" value="Asignador de puertas" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="VEzm1wGkJV7xHXXM20gM-34" value="Asignar puertas" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="410" y="533" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="VEzm1wGkJV7xHXXM20gM-35" value="0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="VEzm1wGkJV7xHXXM20gM-34" vertex="1">
