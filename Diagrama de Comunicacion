@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-28T02:10:27.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Fixw6zoaRWi3M-Tc4hZz" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T00:07:44.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="EdywqMfppVY0Ot8PEgt0" version="14.7.3" type="github">
   <diagram id="58nNWvwmMHyAMiyquCUw" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
             <mxPoint x="640" y="143" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eAiav7n5DRDQOM2Kyhrc-28" value="" style="endArrow=classic;html=1;exitX=0.42;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.409;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="eAiav7n5DRDQOM2Kyhrc-18" source="eAiav7n5DRDQOM2Kyhrc-4">
+        <mxCell id="eAiav7n5DRDQOM2Kyhrc-28" value="" style="endArrow=classic;html=1;exitX=0.42;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.409;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="eAiav7n5DRDQOM2Kyhrc-4" target="eAiav7n5DRDQOM2Kyhrc-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="150" as="sourcePoint" />
             <mxPoint x="620" y="230" as="targetPoint" />
@@ -84,6 +84,9 @@
             <mxPoint x="140" y="200" as="sourcePoint" />
             <mxPoint x="270" y="130" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-1" value="Envia Json Con los Aviones" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="160" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
