@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T00:35:01.441Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="FvkT3_I6AaP3flvJ0wAw" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T00:45:46.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="39l8OBKTRr_ZGbx8EFzN" version="14.7.3" type="github">
   <diagram id="58nNWvwmMHyAMiyquCUw" name="Page-1">
-    <mxGraphModel dx="1865" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,7 +89,7 @@
           <mxGeometry x="670" y="160" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-3" value="Controlador" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="270" y="522" width="390" height="52" as="geometry" />
+          <mxGeometry x="227" y="500" width="390" height="52" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r6Mw6vdL8GlVDbaN5LrA-3">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
@@ -109,79 +109,107 @@
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-7" value="&lt;h4&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Versión 2&lt;/font&gt;&lt;/b&gt;&lt;/h4&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="354" y="380" width="120" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="r6Mw6vdL8GlVDbaN5LrA-8" target="r6Mw6vdL8GlVDbaN5LrA-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-8" value="Vuelos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="0.6600000000000001" y="553" width="140" height="52" as="geometry" />
+          <mxGeometry x="20" y="848" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-9" value="Tipo de avion" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r6Mw6vdL8GlVDbaN5LrA-8">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-10" value="Ventana Controlador" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="670" y="450" width="140" height="52" as="geometry" />
+          <mxGeometry x="650" y="848" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-11" value="Mostrar Info Aviones" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r6Mw6vdL8GlVDbaN5LrA-10">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-15" value="Ventana de información" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="290" y="760" width="260" height="52" as="geometry" />
+          <mxGeometry x="247" y="738" width="260" height="52" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-16" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r6Mw6vdL8GlVDbaN5LrA-15">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-20" value="Envia JSON con Info Aviones" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-15;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="424" width="150" height="20" as="geometry" />
+          <mxGeometry x="170" y="1000" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-21" value="Envia JSON con Info Aviones" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=15;" vertex="1" parent="1">
-          <mxGeometry x="677" y="410" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-26" value="Envía Info Avión Próximo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-15;" vertex="1" parent="1">
-          <mxGeometry x="60.66" y="476.90999999999997" width="80" height="25.09" as="geometry" />
+          <mxGeometry x="520" y="1060" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-27" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="574" as="sourcePoint" />
-            <mxPoint x="300.5" y="649.09" as="targetPoint" />
+            <mxPoint x="257" y="552" as="sourcePoint" />
+            <mxPoint x="257.5" y="627.09" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-28" value="Avisa que el Avión Necesita pista" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="254" y="662" width="100" height="28" as="geometry" />
+          <mxGeometry x="211" y="640" width="100" height="28" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-29" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="353" y="758" as="sourcePoint" />
-            <mxPoint x="353" y="630" as="targetPoint" />
+            <mxPoint x="310" y="736" as="sourcePoint" />
+            <mxPoint x="310" y="608" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-30" value="Manda la Pista" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="600" width="60" height="20" as="geometry" />
+          <mxGeometry x="287" y="578" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-32" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="573.9999999999999" as="sourcePoint" />
-            <mxPoint x="460.5" y="649.09" as="targetPoint" />
+            <mxPoint x="417" y="551.9999999999999" as="sourcePoint" />
+            <mxPoint x="417.5" y="627.09" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-33" value="Avisa que el Avión Necesita Puerta" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="662" width="100" height="28" as="geometry" />
+          <mxGeometry x="387" y="640" width="100" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r6Mw6vdL8GlVDbaN5LrA-16">
+        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="r6Mw6vdL8GlVDbaN5LrA-16" target="r6Mw6vdL8GlVDbaN5LrA-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="582" y="640" as="targetPoint" />
+            <mxPoint x="588" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="538" y="777" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-36" value="Manda la Puerta" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="605" width="56" height="20" as="geometry" />
+          <mxGeometry x="510" y="570.5" width="56" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-37" value="Son ideas" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="369" y="410" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-40" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="574.91" as="sourcePoint" />
-            <mxPoint x="401" y="670" as="targetPoint" />
+            <mxPoint x="357" y="552.91" as="sourcePoint" />
+            <mxPoint x="358" y="648" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-41" value="Inicia Contador" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="354" y="682" width="80" height="28" as="geometry" />
+        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-41" value="Inicia Contador&lt;br&gt;Aterrizaje" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="311" y="660" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-45" value="Enviar Avión Próximo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="516" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-47" value="Inicia Contador&lt;br&gt;Traslado" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="566" y="660" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-48" value="" style="endArrow=classic;html=1;exitX=0.953;exitY=1.115;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r6Mw6vdL8GlVDbaN5LrA-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="543.9999999999999" as="sourcePoint" />
+            <mxPoint x="599" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r6Mw6vdL8GlVDbaN5LrA-4" target="r6Mw6vdL8GlVDbaN5LrA-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="539" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-50" value="Enviar&lt;br&gt;Info / estado Aviones" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="536" width="100" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
