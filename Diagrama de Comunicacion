@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T00:45:46.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="39l8OBKTRr_ZGbx8EFzN" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T00:50:45.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="V2O_nr1i5E7Akl7YWJto" version="14.7.3" type="github">
   <diagram id="58nNWvwmMHyAMiyquCUw" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,11 +88,13 @@
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-1" value="Envia Json Con los Aviones" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="670" y="160" width="100" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r6Mw6vdL8GlVDbaN5LrA-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-3" value="Controlador" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="227" y="500" width="390" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r6Mw6vdL8GlVDbaN5LrA-3">
-          <mxGeometry y="26" width="390" height="26" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-5" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -135,11 +137,8 @@
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-16" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r6Mw6vdL8GlVDbaN5LrA-15">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-20" value="Envia JSON con Info Aviones" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-15;" vertex="1" parent="1">
-          <mxGeometry x="170" y="1000" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-21" value="Envia JSON con Info Aviones" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=15;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1060" width="150" height="20" as="geometry" />
+        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-21" value="¿Envia JSON con Info Aviones?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="980" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-27" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -197,19 +196,23 @@
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-47" value="Inicia Contador&lt;br&gt;Traslado" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="566" y="660" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-48" value="" style="endArrow=classic;html=1;exitX=0.953;exitY=1.115;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r6Mw6vdL8GlVDbaN5LrA-4">
+        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-48" value="" style="endArrow=classic;html=1;exitX=0.953;exitY=1.115;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="660" y="543.9999999999999" as="sourcePoint" />
+            <mxPoint x="598.6700000000001" y="554.99" as="sourcePoint" />
             <mxPoint x="599" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r6Mw6vdL8GlVDbaN5LrA-4" target="r6Mw6vdL8GlVDbaN5LrA-10">
+        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="r6Mw6vdL8GlVDbaN5LrA-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="539" as="targetPoint" />
+            <mxPoint x="617" y="539" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r6Mw6vdL8GlVDbaN5LrA-50" value="Enviar&lt;br&gt;Info / estado Aviones" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="720" y="536" width="100" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="r6Mw6vdL8GlVDbaN5LrA-52" value="&lt;span style=&quot;text-align: left&quot;&gt;Debe enviar&amp;nbsp;tipo&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;de avión, pistas y puertas libres a Ventana Información&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="440" width="193" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
