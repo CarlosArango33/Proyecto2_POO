@@ -2,40 +2,30 @@ package Controlador.src;
 
 import java.net.*;
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+
+
 
 public class Controlador implements Runnable{
 
-    public boolean running;
+    List<ArrayList<String>> lista_aviones = new ArrayList<ArrayList<String>>();
 
-    Controlador(){
-        Thread hilo = new Thread(this);
-        hilo.start();
-        running = true;
+    public Controlador(){
+        //
     }
     
+    public void asignar_pista(int numero_pista){
+        //Para decidir el numero de pista del avion
+    }
+
+    public void getPista(){
+        //Deberia agarrar/cambiar el dato de pista
+    }
+
 
     @Override
     public void run() {
-        // TODO Auto-generated method stub
-
-       /* try {
-            
-            ServerSocket servidor = new ServerSocket(9999);
-
-            while(running){
-                Socket miSocket = servidor.accept();
-                DataInputStream flujoEntrada = new DataInputStream(miSocket.getInputStream());
-                String mensaje = flujoEntrada.readUTF();
-                //areaTexto.append("\n" + mensaje);
-                miSocket.close();
-            }
-            
-
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } */
-        
     }
 
     

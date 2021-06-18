@@ -1,17 +1,25 @@
-package VentanaControlador.src;
+package PracticaSocket.ClienteJson.src;
 
 import javax.swing.JFrame;
 import javax.swing.*;
 import java.awt.*;
 import javax.swing.plaf.DimensionUIResource;
-import java.awt.event.*;
 
-public class InterfazGrafica extends JFrame implements ActionListener{
+import org.json.simple.JSONObject;
+
+import java.awt.event.*;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.*;
+
+public class InterfazCliente extends JFrame implements ActionListener{
     /**
      *
      */
     private static final long serialVersionUID = 1L;
     JButton boton1;
+    JButton boton2;
+    JButton boton3;
     
     JPanel panelBoton;
 
@@ -24,9 +32,9 @@ public class InterfazGrafica extends JFrame implements ActionListener{
 
     int i = 1;
 
-    public InterfazGrafica(){
-        super("Ventana De Controlador");
-        this.setPreferredSize(new DimensionUIResource(700, 500));
+    public InterfazCliente(){
+        super("Cliente");
+        this.setPreferredSize(new DimensionUIResource(300, 300));
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         Dimension pantalla = Toolkit.getDefaultToolkit().getScreenSize();
@@ -48,19 +56,18 @@ public class InterfazGrafica extends JFrame implements ActionListener{
         panelTexto3 = new JPanel();
 
 
-        etiquetaTexto = new JLabel("Ventana Controlador ");
+        etiquetaTexto = new JLabel("Ingrese el mensaje.");
         panelTexto.add(etiquetaTexto, BorderLayout.CENTER);
 
         panelBoton.setLayout(new GridLayout(10,2));
 
-        boton1 = new JButton("Mostrar");
+        boton1 = new JButton("Enviar");
         boton1.addActionListener(this);
         panelBoton.add(boton1);
 
         panelBoton.setLayout(new GridLayout(10,1));
 
-        areaTexto = new JTextArea(1, 10);
-        //areaTexto.setBounds(10, 10, 20, 30);
+        areaTexto = new JTextArea("     ");
         panelTexto2.add(areaTexto, BorderLayout.SOUTH);
 
         this.add(panelBoton, BorderLayout.LINE_END);
@@ -70,13 +77,35 @@ public class InterfazGrafica extends JFrame implements ActionListener{
 
     }
 
-    
     @Override
     public void actionPerformed(ActionEvent e) {
         
         if(e.getSource().equals(boton1)){
-            areaTexto.setText("Deberia desactivar hasta prox avion");
-        }
 
+            try {
+                JSONObject json = new JSONObject();
+                json.put("Tipo", "Conexion");
+
+                Socket miSocket = new Socket("localhost",9999);
+    
+                DataOutputStream flujoSalida = new DataOutputStream(miSocket.getOutputStream());
+    
+                //flujoSalida.writeUTF(areaTexto.getText());
+                flujoSalida.writeUTF(json.toString());
+    
+                flujoSalida.close();
+    
+            } catch (UnknownHostException e1) {
+                // TODO Auto-generated catch block
+                e1.printStackTrace();
+            } catch (IOException e1) {
+                // TODO Auto-generated catch block
+                e1.printStackTrace();
+                System.out.println("Hubo un error en la conexion.");
+
+            }
+            
+            //System.out.println("Presionado");
+        }
     }
 }
