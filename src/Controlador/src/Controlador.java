@@ -9,10 +9,10 @@ import java.util.List;
 
 public class Controlador implements Runnable{
 
-    List<ArrayList<String>> lista_aviones = new ArrayList<ArrayList<String>>();
+
 
     public Controlador(){
-        //
+        //none
     }
     
     public void asignar_pista(int numero_pista){
@@ -21,6 +21,9 @@ public class Controlador implements Runnable{
 
     public void getPista(){
         //Deberia agarrar/cambiar el dato de pista
+
+        //Está malo
+
     }
 
 

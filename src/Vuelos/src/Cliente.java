@@ -24,10 +24,12 @@ public class Cliente extends Thread{
         lista_aviones.add(AvionCarga);
         lista_aviones.add(AvionPasajeros);
     }
-    void enviar(String info){
+    void enviar(String tipo, String size, Boolean retraso){
         try {
             JSONObject json = new JSONObject();
-            json.put("Tipo", "Conexion");
+            json.put("Tipo", tipo);
+            json.put("Tamanno", size);
+            json.put("Retraso", retraso);
 
 
             Socket miSocket = new Socket("localhost",9999);
@@ -53,9 +55,8 @@ public class Cliente extends Thread{
     public void run(){
         int contador = 0;
         while (contador != lista_aviones.size()){
-            Object dato = lista_aviones.get(contador);
             System.out.println(lista_aviones.get(contador).getType());
-            enviar(lista_aviones.get(contador).getType());
+            enviar(lista_aviones.get(contador).getType(), lista_aviones.get(contador).getSize(), lista_aviones.get(contador).getRetraso());
             try {
                 Cliente.sleep(15000);
             }
